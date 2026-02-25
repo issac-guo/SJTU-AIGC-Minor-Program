@@ -1,0 +1,17 @@
+path: C:\Users\86135\Desktop\AIGC\第三讲\YOLO算法\Drink_284_Detection_Labelme
+train: C:\Users\86135\Desktop\AIGC\第三讲\YOLO算法\Drink_284_Detection_Labelme\images\train
+val: C:\Users\86135\Desktop\AIGC\第三讲\YOLO算法\Drink_284_Detection_Labelme\images\val
+
+names:
+  0: cola
+  1: pepsi
+  2: sprite
+  3: fanta
+  4: spring
+  5: ice
+  6: scream
+  7: milk
+  8: red
+  9: king
+
+nc: 10
