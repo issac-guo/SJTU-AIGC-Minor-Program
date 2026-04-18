@@ -1,0 +1,25 @@
+{
+   "mcpServers":
+   {
+    "research": {
+      "command": "python",
+      "args": ["research_server.py"]
+    },
+    "baidu-maps": {
+        "args": [
+          "mcp-server-baidu-maps"
+        ],
+        "command": "uvx",
+        "env": {
+          "BAIDU_MAPS_API_KEY": "CdVaFlfFhMHFnfU4riUMheXmYMn8960Y"
+        }
+      },
+      "12306-mcp": {
+      "args": [
+        "-y",
+        "12306-mcp"
+      ],
+      "command": "npx.cmd"
+    }
+  }
+}
